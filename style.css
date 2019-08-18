@@ -1,0 +1,124 @@
+body{
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+form{
+  background-color: rgba(0, 25, 49, 0.5);
+  border:none;
+  border-radius: 5px;
+  padding: 30px 10px;
+  width: 450px;
+  display: inline-block;
+}
+input {
+  font-family: monospace;
+  background-color: white;
+}
+select{
+  background-color: white;
+
+}
+label {
+  display: block;
+}
+div {
+  margin: 0 0 1rem 0;
+}
+#nameTextField{
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:275px;
+  height:30px;
+  margin-top:25px;
+  margin-bottom: 10px;
+}
+#priceTextField{
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:275px;
+  height:30px;
+  margin-bottom: 10px;
+display: block;
+}
+#sendButton{
+  display: block;
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:275px;
+  margin-bottom: 10px;
+  height:30px;
+}
+#cardTextField{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  width:275px;
+  margin-bottom: 10px;
+  height:30px;
+}
+#textArea{
+  display: block;
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  width:275px;
+  height:30px;
+}
+#dropDown{
+  display: block;
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:275px;
+  height:30px;
+  margin-bottom: 10px;
+}
+#phNumber{
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:225px;
+  margin-bottom: 10px;
+  height:30px;
+
+}
+#phDropDown{
+  margin: 0 auto;
+  text-transform: none;
+    height: 30px;
+    margin-left: 18.5%;
+  margin-bottom: 10px;
+  height:30px;
+}
+#readOnlyText{
+  display: block;
+  margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+  width:275px;
+  margin-bottom: 10px;
+  height:30px;
+}
+@media(max-width: 455px){
+  form{
+    width: auto;
+  }
+  #phDropDown{
+    margin-left:  0%;
+  }
+  #phNumber{
+    width: 210px;
+  }
+
+}
